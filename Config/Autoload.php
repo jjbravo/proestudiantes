@@ -3,7 +3,7 @@
 		public static function run(){
 			spl_autoload_register(function($class){
 				$url=str_replace("\\", "/", $class).".php";
-				 print $url;
+				// print $url;
 				if(is_readable($url)){
 					require_once $url;
 				}else{
@@ -12,8 +12,5 @@
 			});
 		}
 	}
-	
- ?>
 
- 
- 
+ ?>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
 .
 ├── Config
@@ -50,9 +50,9 @@
 */
 	define('DS',DIRECTORY_SEPARATOR);
 	define('ROOT',realpath(dirname(__FILE__)) . DS);
-	
-	define('URL','http://localhost/cursophp/phpsenasoft/pro_estudiantes/');
-	define('MEDIA','http://localhost/cursophp/phpsenasoft/pro_estudiantes/media');
+
+	define('URL','http://localhost/proestudiantes/');
+	define('MEDIA','http://localhost/proestudiantes/media');
 
 	require_once "Config/Autoload.php";
 
@@ -61,8 +61,6 @@
 	Config\Enrutador::run(new Config\Request());
 
 	/*******************************/
-	// phpinfo();				       //	
+	// phpinfo();				       //
 	/*******************************/
  ?>
-
-
